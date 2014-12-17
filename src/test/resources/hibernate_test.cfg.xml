@@ -7,8 +7,8 @@
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 		<!--<property name="hibernate.connection.url">jdbc:jtds:sqlserver://streamer2005.softserveinc.com/_055_OMS;instance=tc;</property>-->
-		<property name="hibernate.connection.url">jdbc:mysql://localhost/oms_db</property>
-		<property name="hibernate.connection.username">oms</property>
+		<property name="hibernate.connection.url">jdbc:mysql://192.168.1.2/oms_db</property>
+		<property name="hibernate.connection.username">oms_db</property>
 		<property name="hibernate.connection.password">muskul</property>
 
 <!-- <property name="hibernate.hbm2ddl.auto">create</property>-->
