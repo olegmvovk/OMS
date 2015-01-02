@@ -1,4 +1,4 @@
-use _055_DB;
+use oms_db;
 
 delete from  `_055_db`.`OrderItems`;
 alter table OrderItems auto_increment=1;

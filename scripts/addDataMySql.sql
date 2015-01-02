@@ -1,4 +1,4 @@
-use _055_DB;
+use oms_db;
 
 
 insert into Roles(RoleName) values('Administrator');
