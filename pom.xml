@@ -276,6 +276,7 @@
 							<Implementation-Version>${build.number}</Implementation-Version>
 						</manifestEntries>
 					</archive>
+				<warName>OMS##${build.number}</warName>
 				</configuration>
 			</plugin>
 			<plugin>
